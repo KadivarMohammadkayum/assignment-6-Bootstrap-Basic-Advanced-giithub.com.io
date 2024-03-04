@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <!-- =============== Header start================= -->
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand px-4 ms-5" href="#">Carousel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtoggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navtoggle">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+
+                    <input class="form-control mr-sm-2 w-25 ms-auto" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success mx-3" type="submit">Search</button>
+
+                </div>
+            </nav>
+        </header>
+    </section>
+    <!-- =============== Header end ================= -->
+
+    <!-- =============== Carousel start================= -->
+    <section id="carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/img-1.jpg" class="d-block w-100 " alt="..." style="height: 100vh;">
+
+                    <div class="carousel-caption float-end">
+                        <h3>One More Good Measure</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ipsam! Lorem ipsum dolor sit
+                            amet.
+                        </p>
+                        <button type="button" class="btn btn-primary">Browes gallery</button>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/img-2.jpg" class="d-block w-100 " alt="..." style="height: 100vh;">
+
+                    <div class="carousel-caption float-end">
+                        <h3>One More Good Measure</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ipsam! Lorem ipsum dolor sit
+                            amet.
+                        </p>
+                        <button type="button" class="btn btn-primary">Browes gallery</button>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/img-3.jpeg" class="d-block w-100 " alt="..." style="height: 100vh;">
+
+                    <div class="carousel-caption float-end">
+                        <h3>One More Good Measure</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ipsam! Lorem ipsum dolor sit
+                            amet.
+                        </p>
+                        <button type="button" class="btn btn-primary">Browes gallery</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- =============== Carousel end================= -->
+
+    <!-- =============== Card example start================= -->
+
+    <section id="card-exam" class=" my-5">
+        <div class="container d-flex  justify-content-around">
+            <div class="card text-center border-0" style="width: 18rem; ">
+                <img src="img/img-1.jpg" class="card-img-top" alt="..." style="border-radius: 50%">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+            <div class="card text-center border-0" style="width: 18rem;">
+                <img src="img/img-1.jpg" class="card-img-top rounded-circle " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+            <div class="card text-center border-0" style="width: 18rem;">
+                <img src="img/img-1.jpg" class="card-img-top rounded-circle" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <!-- =============== Card Example end================= -->
+
+    <!-- ================ flex example start============== -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="about-text">
+                    <h3 class="px-5">First featurette heading. it'll blow your mind</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore facilis natus sunt blanditiis, ipsam aperiam magnam temporibus iusto incidunt enim reiciendis sapiente odit dolores sit accusamus corrupti. Fugit, quidem.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 pb-4">
+                <div class="img-box">
+                    <img src="img/img-1.jpg" alt="about" class="img-responsive w-100">
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="row">   
+            <div class="col-sm-4 pb-4">
+                <div class="img-box">
+                    <img src="img/img-1.jpg" alt="about" class="img-responsive w-100">
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div id="about-text">
+                    <h3 class="px-5">First featurette heading. it'll blow your mind</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore facilis natus sunt blanditiis, ipsam aperiam magnam temporibus iusto incidunt enim reiciendis sapiente odit dolores sit accusamus corrupti. Fugit, quidem.</p>
+                </div>
+            </div>
+
+            <hr>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="about-text">
+                    <h3 class="px-5">First featurette heading. it'll blow your mind</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore facilis natus sunt blanditiis, ipsam aperiam magnam temporibus iusto incidunt enim reiciendis sapiente odit dolores sit accusamus corrupti. Fugit, quidem.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 pb-4">
+                <div class="img-box">
+                    <img src="img/img-1.jpg" alt="about" class="img-responsive w-100">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- ============= felx example end =========== -->
+
+
+    <!-- ============== Footer start============== -->
+
+    <footer class=" text-center py-2 mb-3 bg-black text-bg-danger "> &#169;2017-2018 Company inc.-privacy</footer>
+
+    <!-- ============== Footer start============== -->
+
+</html>
